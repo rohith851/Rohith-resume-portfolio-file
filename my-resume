@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G. Rohith Kumar | Portfolio</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 960px;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            color: #337ab7; /* Accent color for headings */
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #contact ul li, 
+        #certifications ul li,
+        #experience ul li {
+            margin-bottom: 8px;
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        
+        #contact ul li {
+            list-style-type: none;
+             margin-left: 0;
+        }
+        
+        #certifications ul li {
+            list-style-type: none;
+            margin-left: 0;
+        }
+
+
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .skills-list li {
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            padding: 8px 15px;
+            margin-right: 8px;
+            margin-bottom: 8px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+        .job, .project, .education-item {
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>G. Rohith Kumar</h1>
+            <p>B.Sc. Computer Science Graduate | Aspiring Software Developer & Cloud Enthusiast</p>
+        </header>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <ul>
+                <li><strong>Phone:</strong> 97054 25084</li>
+                <li><strong>Email:</strong> rohithgudipudi3@gmail.com</li>
+                <li><strong>LinkedIn:</strong> <a href="#">Your LinkedIn Profile URL</a></li>
+                <li><strong>GitHub:</strong> <a href="#">Your GitHub Profile URL</a></li>
+            </ul>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                A results-driven and detail-oriented B.Sc. Computer Science graduate seeking an entry-level role in Software Development, Cloud Computing, or IT Support. I am proficient in C, Java, Python, HTML, Microsoft Azure, and Database Management Systems, with hands-on experience gained through internships and academic projects. I am committed to delivering innovative solutions, improving operational efficiency, and growing within a multinational organization while continuously enhancing my technical and professional skills.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul class="skills-list">
+                <li>C</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>Microsoft Azure</li>
+                <li>SQL</li>
+                <li>DBMS</li>
+                <li>Problem-Solving</li>
+                <li>Team Collaboration</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Microsoft Azure Intern (Virtual)</h3>
+                <p><strong>TECNO INFRA</strong> | Apr 2025 - Jun 2025</p>
+                <ul>
+                    <li>Gained hands-on experience with Microsoft Azure's core services and cloud computing fundamentals.</li>
+                    <li>Worked with Virtual Machines, Storage Solutions, Azure App Services, and Cloud Deployment strategies.</li>
+                    <li>Assisted in managing and securing cloud infrastructure to improve scalability and reliability.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>College Management System</h3>
+                <p>This academic project involved developing a database-driven application to efficiently manage student, faculty, and course records. Successfully improved record retrieval speed by 40%.</p>
+                <p><strong>Technologies Used:</strong> Java, MySQL, HTML</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Bachelor of Science (B.Sc.) in Computer Science</h3>
+                <p>Aditya Degree College, Eluru (Affiliated to Adikavi Nannaya University)</p>
+            </div>
+            <div class="education-item">
+                <h3>Intermediate (MPC)</h3>
+                <p>Sri Chaitanya Junior College, Eluru</p>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>MEPro Personal Certification - PTE & GSE</li>
+                <li>Python Essentials 1 & 2 - Cisco Networking Academy</li>
+                <li>Java Programming Certificate - Cisco Networking Academy</li>
+                <li>Problem Solving in C - Infosys Springboard</li>
+                <li>DigiSaksham Certificate - Microsoft</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
